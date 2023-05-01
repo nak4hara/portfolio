@@ -1,0 +1,30 @@
+.project{
+    height: 86px;
+    font-size: 20px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.project a{
+    align-self: center;
+    text-decoration: none;
+    color: #837E9F;
+    font-size: 14px;
+}
+.info-project{
+    height: 186px;
+    display: flex;
+}
+
+.first-project, .second-project{
+    padding: 30px;
+}
+
+
+.posts{
+    height: 86px;
+    font-size: 20px;
+    display:flex;
+    padding: 0 30px;
+}
