@@ -1,0 +1,85 @@
+body{
+    background-color: #22212C;
+    color: #837E9F;
+    font-family: Merriweather Sans, sans-serif;
+    display: grid;
+    grid-template-areas: 
+    "section" "section";
+    grid-template-columns: 30% 70%;
+}
+
+.box{
+    border-radius: 20px;
+    background-color: #302F3D;
+    margin: 20px 20px;
+    box-sizing: border-box;
+}
+
+.profile{
+    text-align: center;
+    height: 292px;
+    padding: 30px 0;
+}
+.profile img{
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    border: 2px #00FF00 solid;
+}
+.profile p{
+    font-weight: 400;
+    font-size: 13pt;
+}
+.profile h1{
+    font-size: 23pt;
+}
+.icons{
+    height: 348px;
+    width: 90%;
+    font-size: 13pt;
+    display: flex;
+    vertical-align: middle;
+
+}
+.technologies{
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 15px;
+}
+.technologies h2, .experiences h2{
+    padding: 20px 0 0 20px;
+}
+.technologies li{
+    display: inline-block;
+    margin: 3px auto;
+    font-size: 10pt;
+    color: #22212C;
+    background-color: #837E9F;
+    font-weight: bolder;
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.experiences{
+    width: 90%;
+}
+
+
+/*icons and lists*/
+.icons img{
+    height: 24px;
+    width: 24px;
+}
+.filter-color{
+    filter: invert(51%) sepia(9%) saturate(945%) hue-rotate(209deg) brightness(98%) contrast(86%);
+}
+ul{
+    list-style: none;
+}
+li{
+    margin: 14px auto;
+}
+
